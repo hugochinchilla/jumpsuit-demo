@@ -3,6 +3,6 @@ services:
   jumpsuit:
     build: .
     volumes:
-      - "./:/code"
+      - "./src:/code/src"
     ports:
       - "3000:3000"

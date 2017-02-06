@@ -4,4 +4,5 @@ RUN npm install -g yarn
 ADD package.json /code/package.json
 ADD yarn.lock /code/yarn.lock
 RUN yarn install
+ADD . /code
 CMD yarn start
